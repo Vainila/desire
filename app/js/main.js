@@ -15,10 +15,22 @@ $(function (){
     fade: true,
     autoplay: true
   });
+
+  $('.contact-slider').slick({
+    dots: true,
+    arrows: false,
+    slidesToScroll: 10,
+    slidesToShow: 10,
+  });
+
+
   let mixer = mixitup ('.gallery__inner', {
     load: {
       filter: '.living'
     }
   });
+
+  
+
 
 })
